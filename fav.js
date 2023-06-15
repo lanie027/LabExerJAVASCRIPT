@@ -5,10 +5,11 @@ let artistAge = prompt("What is the age of your favorite artist?");
 artistAge = Number(artistAge);
 
 // Compare the artist's age to 25
+// If the age is below 25 and if the age is older and if the age is also 25
 if (artistAge < 25) {
   console.log("They're " + artistAge + " years old and they're younger than Google");
-} else if (artistAge > 25) {
-  console.log("They're " + artistAge + " years old and they're younger than Google");
-} else {
-  console.log("They're " + artistAge + " years old and they're younger than Google");
+} else if (artistAge == 25) {
+  console.log("They're " + artistAge + " years old and they're as old as Google");
+} else if (artistAge > 25){
+  console.log("They're " + artistAge + " years old and they're older than Google");
 }
